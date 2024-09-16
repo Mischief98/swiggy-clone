@@ -1,0 +1,196 @@
+/* body {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  } */
+  
+  .contact-page-container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    /* box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37); */
+    backdrop-filter: blur(10px);
+  }
+  
+  .contact-title {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5em;
+    color: #ff4500;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-section-title {
+    margin-top: 30px;
+    font-size: 1.8em;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .contact-info, .contact-form-section {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    /* box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37); */
+    backdrop-filter: blur(10px);
+  }
+  
+  .contact-info-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-info-list li {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  .contact-form .contact-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    font-size: 1em;
+  }
+  
+  .contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    border-color: #ff4500;
+    box-shadow: 0 0 10px rgba(255, 69, 0, 0.5);
+  }
+  
+  .contact-submit-button {
+    background: #ff4500;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-submit-button:hover {
+    background: #ff5722;
+  }
+  
+
+  .contact-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-logo img {
+    height: 50px;
+  }
+  
+  .contact-menu {
+    display: flex;
+  }
+  
+  .contact-menu-item {
+    margin-left: 20px;
+  }
+  
+  .contact-menu-item a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-menu-item a:hover {
+    color: #ff4500;
+  }
+  
+  .contact-menu-item i {
+    margin-right: 5px;
+  }
+  
+  .contact-menu-item .contact-popup {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    white-space: nowrap;
+  }
+  
+  .contact-menu-item:hover .contact-popup {
+    display: block;
+  }
+  
+  .contact-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+  
+  .contact-footer-title {
+    font-size: 1.2em;
+    color: #ff4500;
+  }
+  
+  .contact-footer img {
+    height: 40px;
+    margin-left: 10px;
+  }
+  
+  .contact-main-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+  
+  .contact-footer-inside {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+  }
+  

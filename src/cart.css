@@ -1,0 +1,134 @@
+
+.cart-page {
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.home-button {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.cart-title {
+  margin-bottom: 20px;
+}
+
+.empty-cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.cart_empty{
+  height: 600px;
+  width: 40%;
+  background-color:white;
+  border-radius: 20px;
+}
+.cart_empty_top{
+  height: 300px;
+  width: 100%;
+  background-color:white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  
+}
+.cart_empty_bottom{
+  height: 300px;
+  width: 100%;
+  background-color:white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.cart_empty_img{
+  height: 300px;
+}
+
+.emptycart_p{
+  height: 150px;
+  background-color: white;
+}
+.emptycart_p{
+  font-family: "Playwrite AR", cursive;
+  color:#333;
+}
+
+.cart-items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 10px;
+}
+
+.cart-item-image {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.cart-item-name {
+  margin: 0 0 10px;
+}
+
+.cart-item-price, .cart-item-quantity {
+  margin: 0;
+}
+
+.delete-item-btn {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  color: red;
+  cursor: pointer;
+}
+
+.cart-actions {
+  margin-top: 20px;
+}
+
+.clear-cart-btn, .delivery-button {
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+  background-color:red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clear-cart-btn:hover, .delivery-button:hover {
+  background-color: #0056b3;
+}
+.return_toshopping{
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #ff4500;
+  border: none;
+  font-size: larger;
+  font-weight: 500;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  transition: 1s all ease;
+}
+.return_toshopping:hover{
+  background-color: white;
+  border: 1px solid #ff4500;
+  color: #ff4500;
+  letter-spacing: -0.4px;
+}
